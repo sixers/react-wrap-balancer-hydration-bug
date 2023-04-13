@@ -13,7 +13,18 @@ import type { LinksFunction } from "@remix-run/node";
 
 import styles from "./tailwind.css";
 
-export const links: LinksFunction = () => [{ rel: "stylesheet", href: styles }];
+export const links: LinksFunction = () => [
+  {
+    rel: "preconnect",
+    href: "https://fonts.bunny.net",
+    crossOrigin: "anonymous",
+  },
+  {
+    rel: "stylesheet",
+    href: "https://fonts.bunny.net/css?family=inter:100,200,300,400,500,600,700,800,900|lexend:400,500&display=swap",
+  },
+  { rel: "stylesheet", href: styles },
+];
 
 export default function App() {
   return (
