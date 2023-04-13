@@ -28,7 +28,10 @@ export const links: LinksFunction = () => [
 
 export default function App() {
   return (
-    <html lang="en">
+    <html
+      lang="pl"
+      className="h-full text-gray-900 bg-white [font-feature-settings:'ss01']"
+    >
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
