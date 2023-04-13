@@ -7,21 +7,15 @@ export const meta: V2_MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div
-      style={{
-        fontFamily: "system-ui, sans-serif",
-        maxWidth: "400px",
-        margin: "0 auto",
-      }}
-    >
-      <h1 style={{ fontSize: "16px" }}>
+    <div className={"font-sans max-w-lg mx-auto flex flex-col gap-8"}>
+      <h1 className={"font-bold text-xl"}>
         <Balancer>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna
         </Balancer>
       </h1>
 
-      <h1 style={{ fontSize: "16px" }}>
+      <h1 className={"font-bold text-xl"}>
         <Balancer>
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
           dolore eu fugiat nulla pariatur
