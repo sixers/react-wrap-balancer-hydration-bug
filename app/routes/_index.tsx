@@ -20,6 +20,13 @@ export default function Index() {
           eiusmod tempor incididunt ut labore et dolore magna
         </Balancer>
       </h1>
+
+      <h1 style={{ fontSize: "16px" }}>
+        <Balancer>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur
+        </Balancer>
+      </h1>
     </div>
   );
 }
